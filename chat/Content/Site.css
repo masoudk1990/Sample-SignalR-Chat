@@ -1,0 +1,40 @@
+﻿/*declare fonts*/
+@font-face {
+    font-family: bYekan;
+    src: url(Font/b_yekan.ttf);
+}
+
+.login{
+    font-family:bYekan;
+}
+
+label{
+    direction:rtl;
+    font-size:1.5em;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*to hidden file uploader and use text field instead*/
+.file {
+    visibility: hidden;
+    position: absolute;
+}
+
+.login .form-control{
+    font-size:1.25em;
+    direction:rtl;
+}
+
+.login .alert{
+    font-size:1.5em;
+    direction:rtl;
+}
+
+.topBuffer {
+    margin-top:1em;
+}
